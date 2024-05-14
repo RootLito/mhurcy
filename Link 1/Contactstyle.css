@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans MT;
+}
+
+.hero{
+    width: 100%;
+    background: url(Mercy\ Files/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #847369;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #bca28a;
+}
+
+
+
+.contact-box{
+    width: 500px;
+    background-color: #847369;
+    box-shadow: 0 0 20px 0 #999;
+    margin-top: 270px;
+    margin-left: 370px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+h3{
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 105px;
+    height: 20px;
+    background-color: white;
+    border-radius: 14px;
+    outline: none;
+    color: #847369;
+}
+
+form{
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #847369;
+    border-radius: 14px;
+    outline: none;
+
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}

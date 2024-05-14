@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans MT;
+}
+
+.hero{
+    width: 100%;
+    background: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #847369;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #bca28a;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: #847369;
+    position: absolute;
+    top: 150px;
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #847369;
+    font-size: 22px;
+    background-color: #d9d1cc;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #d9d1cc;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #d9d1cc;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #d9d1cc;
+    font-family: Gill Sans MT;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #c3a182;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #d9d1cc;
+    transition: 0.2 ease;
+}
+
+.btnn:hover{
+    background: #d9d1cc;
+    color: #c3a182;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #847369;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #d9d1cc;
+    font-weight: bold;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #c3a182;
+    font-weight: bold;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #d9d1cc;
+    font-weight: bold;
+}
+
+.detel a{
+    background: #847369;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#d9d1cc;
+    display: inline-block;
+    margin-top: 280px;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+
+.detel a:hover{
+    background: #c3a182;
+    color: #d9d1cc;
+}
+
+.icon{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+}
